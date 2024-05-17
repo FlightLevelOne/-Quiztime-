@@ -1,1 +1,22 @@
-# -Quiztime-
+name = input("What's your name? ")
+
+name 
+
+age = input("How old are you? ")
+
+age
+
+# quiz.py
+
+answer = input("What species are you? ")
+if answer == "Human":
+    print("Correct!")
+else:
+    print(f"The answer is 'Human', not {answer!r}")
+
+# quiz.py
+
+answer = input("What came after the year 1999? ")
+if answer == "2000":
+    print("You did it!")
+else:print(f"Wow you suck at this!")    
